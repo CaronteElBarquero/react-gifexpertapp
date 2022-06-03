@@ -1,0 +1,63 @@
+
+
+
+* {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+body{
+    padding: 60px;
+    background-image: linear-gradient(to left, #243949 10%, #517fa4 100%);
+}
+    
+
+input{
+    color: #01497c;
+    border-radius: 7px;
+    box-sizing: border-box;
+    /* background-color: #2a6f97; */
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+ol{
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+
+
+.card-grid{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.card{
+
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+
+.card img{
+    height: auto;
+    width: 30%;
+}
+
+.card-name{
+    text-align: center;
+}
